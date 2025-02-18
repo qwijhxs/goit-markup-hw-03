@@ -1,5 +1,5 @@
 body {
-  color: #434455;
+  color: #2e2f42;
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -46,6 +46,7 @@ a {
 .navigation {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 
 .header-logo {
@@ -65,13 +66,27 @@ a {
 }
 
 .nav-link {
+  display: block;
   padding: 24px 0;
+  font-weight: 500;
+  line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2e2f42;
 }
 
 .address-list {
   display: flex;
   gap: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
+
+
+
 
 .footer {
   padding: 100px 0;
@@ -119,7 +134,7 @@ a {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #404bbf;
+  color: #2e2f42;
 }
 
 .contacts {
@@ -138,7 +153,6 @@ a {
 }
 
 .hero .container {
-  display: flex;
   flex-direction: column;
   align-items: center;
   gap: 48px;
@@ -193,6 +207,16 @@ a {
   text-transform: capitalize;
 }
 
+.section-title-team {
+  margin-bottom: 72px;
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+
 .team-list {
   display: flex;
   gap: 24px;
@@ -211,18 +235,34 @@ a {
 .subtitle {
   margin-bottom: 8px;
   color: #2e2f42;
-  text-align: center;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
+.subtitle-team {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
 .text {
   color: #434455;
-  text-align: center;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.text-team {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455; 
 }
 
 img {
